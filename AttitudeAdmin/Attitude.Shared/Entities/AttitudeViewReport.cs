@@ -9,7 +9,7 @@ namespace Attitude.Shared.Entities
     public class AttitudeViewReport
     {
         public int questionType { get; set; }
-        public string Title { get; set; }
-        public float Sum { get; set; }
+        public int Id { get; set; }
+        public float average { get; set; }
     }
 }

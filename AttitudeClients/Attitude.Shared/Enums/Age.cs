@@ -11,7 +11,7 @@ namespace AttitudeMeasurement.DAL.Enums
     {
         [Description("زیر 25 سال")]
         LowerThan25 =1,
-        [Description("بین 26 تا 30 سال")]
+        [Description("بین 26 تا 33 سال")]
         LowerThan26To33 = 2,
         [Description("بین 34 تا 41 سال")]
         LowerThan34To41 = 3,

@@ -101,3 +101,38 @@ E:\Out Source\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.csproj.CoreCom
 E:\Out Source\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.csproj.CopyComplete
 E:\Out Source\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.dll
 E:\Out Source\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.pdb
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Attitude.DAL.dll.config
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Attitude.DAL.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Attitude.DAL.pdb
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Attitude.Shared.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Dapper.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\DapperParameters.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\EntityFramework.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\log4net.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.Mvc.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.WebPages.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.Razor.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Attitude.Shared.pdb
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Attitude.Shared.dll.config
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Dapper.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\EntityFramework.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\log4net.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.Mvc.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.WebPages.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.Razor.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.csprojAssemblyReference.cache
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.csproj.CoreCompileInputs.cache
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.csproj.CopyComplete
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.dll
+F:\Sources\Repos\Survey34000\AttitudeClients\Attitude.DAL\obj\Debug\Attitude.DAL.pdb

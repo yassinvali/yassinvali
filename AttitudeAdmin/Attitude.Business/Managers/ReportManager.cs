@@ -60,7 +60,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Gender)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Title.Contains(((Gender)item2).ToDescriptionEnum())) ? attitudeViewReports.Where(q => q.questionType == (int)item).Sum(p => p.Sum) : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }
@@ -82,7 +82,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Age)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Title.Contains(((Age)item2).ToDescriptionEnum())) ? attitudeViewReports.Where(q => q.questionType == (int)item).Sum(p => p.Sum) : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id==(int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }
@@ -104,7 +104,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((WorkExperience)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Title.Contains(((WorkExperience)item2).ToDescriptionEnum())) ? attitudeViewReports.Where(q => q.questionType == (int)item).Sum(p => p.Sum) : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }
@@ -126,7 +126,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((CurrentWorkExperience)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Title.Contains(((CurrentWorkExperience)item2).ToDescriptionEnum())) ? attitudeViewReports.Where(q => q.questionType == (int)item).Sum(p => p.Sum) : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }
@@ -148,7 +148,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Education)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Title.Contains(((Education)item2).ToDescriptionEnum())) ? attitudeViewReports.Where(q => q.questionType == (int)item).Sum(p => p.Sum) : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }
@@ -170,7 +170,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Position)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Title.Contains(((Position)item2).ToDescriptionEnum())) ? attitudeViewReports.Where(q => q.questionType == (int)item).Sum(p => p.Sum) : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }

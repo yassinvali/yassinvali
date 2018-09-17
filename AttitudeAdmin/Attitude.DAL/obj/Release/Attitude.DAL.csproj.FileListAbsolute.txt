@@ -32,3 +32,37 @@ E:\Out Source\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.csproj.CoreCom
 E:\Out Source\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.csproj.CopyComplete
 E:\Out Source\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.dll
 E:\Out Source\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.pdb
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Attitude.DAL.dll.config
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Attitude.DAL.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Attitude.DAL.pdb
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Attitude.Shared.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Dapper.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\EntityFramework.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\EntityFramework.SqlServer.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Microsoft.AspNet.Identity.Core.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.Mvc.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\log4net.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.Razor.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.WebPages.Razor.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.WebPages.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Microsoft.Web.Infrastructure.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.WebPages.Deployment.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Attitude.Shared.pdb
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Attitude.Shared.dll.config
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Dapper.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\EntityFramework.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\EntityFramework.SqlServer.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Microsoft.AspNet.Identity.Core.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.Mvc.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\log4net.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.Razor.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.WebPages.Razor.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.WebPages.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Release\System.Web.WebPages.Deployment.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.csprojAssemblyReference.cache
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.csproj.CoreCompileInputs.cache
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.csproj.CopyComplete
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.dll
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Release\Attitude.DAL.pdb
