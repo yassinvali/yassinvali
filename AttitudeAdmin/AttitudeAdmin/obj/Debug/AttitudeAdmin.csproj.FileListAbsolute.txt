@@ -1,0 +1,218 @@
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\csc.exe
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\System.Collections.Immutable.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\System.Reflection.Metadata.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\vbc.exe
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\VBCSCompiler.exe
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\roslyn\VBCSCompiler.exe.config
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\AttitudeAdmin.dll.config
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\AttitudeAdmin.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\AttitudeAdmin.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Antlr3.Runtime.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.DAL.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\CaptchaMvc.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.SqlServer.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.DependencyCollector.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.Web.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.WindowsServer.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.ApplicationInsights.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Google.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Web.Infrastructure.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Newtonsoft.Json.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Owin.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\PagedList.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\PagedList.Mvc.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Net.Http.Formatting.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Helpers.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.WebHost.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Mvc.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Optimization.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Razor.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Deployment.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Razor.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\WebGrease.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.DAL.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.DAL.dll.config
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\CaptchaMvc.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\CaptchaMvc.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.SqlServer.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.DependencyCollector.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.Web.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.WindowsServer.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.ApplicationInsights.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\PagedList.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\PagedList.Mvc.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Net.Http.Formatting.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.WebHost.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Helpers.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Mvc.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Optimization.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Razor.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Deployment.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Razor.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Antlr3.Runtime.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Newtonsoft.Json.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Google.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.csprojAssemblyReference.cache
+F:\Sources\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.csproj.CoreCompileInputs.cache
+F:\Sources\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.csproj.CopyComplete
+F:\Sources\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Shared.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Shared.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Shared.dll.config
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Business.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Business.pdb
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Business.dll.config
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Dapper.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\Dapper.xml
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\log4net.dll
+F:\Sources\AttitudeAdmin\AttitudeAdmin\bin\log4net.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\csc.exe
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\System.Collections.Immutable.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\System.Reflection.Metadata.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\vbc.exe
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\VBCSCompiler.exe
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\roslyn\VBCSCompiler.exe.config
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\AttitudeAdmin.dll.config
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\AttitudeAdmin.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\AttitudeAdmin.pdb
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Antlr3.Runtime.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Business.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.DAL.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Shared.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\CaptchaMvc.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.SqlServer.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\log4net.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.DependencyCollector.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.Web.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.WindowsServer.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.ApplicationInsights.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Google.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Web.Infrastructure.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Newtonsoft.Json.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Owin.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\PagedList.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\PagedList.Mvc.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Net.Http.Formatting.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Helpers.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.WebHost.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Mvc.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Optimization.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Razor.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Deployment.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Razor.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\WebGrease.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Dapper.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Business.pdb
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Business.dll.config
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.DAL.pdb
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.DAL.dll.config
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Shared.pdb
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Attitude.Shared.dll.config
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\CaptchaMvc.pdb
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\CaptchaMvc.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\EntityFramework.SqlServer.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\log4net.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.DependencyCollector.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.Web.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AI.WindowsServer.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.ApplicationInsights.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\PagedList.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\PagedList.Mvc.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Net.Http.Formatting.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Http.WebHost.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Helpers.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Mvc.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Optimization.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.Razor.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Deployment.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\System.Web.WebPages.Razor.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Antlr3.Runtime.pdb
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Newtonsoft.Json.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Google.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\bin\Dapper.xml
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.csprojAssemblyReference.cache
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.csproj.CoreCompileInputs.cache
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.csproj.CopyComplete
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.dll
+E:\Out Source\AttitudeAdmin\AttitudeAdmin\obj\Debug\AttitudeAdmin.pdb

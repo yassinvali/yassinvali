@@ -1,0 +1,42 @@
+﻿@using AttitudeClient.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "ورود کاربران";
+    Layout = "../Shared/_LoginLayout.cshtml";
+}
+
+@using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <input id="website" name="website" type="text" value="">
+    <div id="middle-wizard">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @placeholder = "نام کاربری" })
+                    @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "کلمه عبور" })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <!-- /row -->
+    </div>
+    <div id="bottom-wizard">
+        <button type="submit" name="process" class="submit">ورود</button>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

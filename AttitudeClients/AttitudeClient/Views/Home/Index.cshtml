@@ -1,0 +1,19 @@
+﻿@model AttitudeMeasurement.DAL.Entities.Question
+
+<div id="wizard_container">
+    <div id="top-wizard">
+        <div id="progressbar"></div>
+    </div>
+    <div id="middle-wizard" >
+        @Html.Partial("_UserInformation")
+    </div>
+</div>
+<div id="bottom-wizard">
+    <button type="button" id="backward" name="backward" class="backward" style="background: #EF233C; color: white">قبلی </button>
+    <button type="button" id="forward" name="forward" class="forward" style="background: #9BC53D">بعدی</button>
+    <button type="submit" id="process" name="process" class="submit">ارسال</button>
+</div>
+
+@section scripts {
+    <script src="~/Scripts/app/questionApp.js"></script>
+}

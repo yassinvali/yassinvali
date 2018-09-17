@@ -1,0 +1,135 @@
+F:\Sources\AttitudeAdmin\Attitude.Business\obj\Debug\Attitude.Business.csproj.CoreCompileInputs.cache
+F:\Sources\AttitudeAdmin\Attitude.Business\obj\Debug\Attitude.Business.csprojAssemblyReference.cache
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.Business.dll.config
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.Business.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.Business.pdb
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.DAL.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\EntityFramework.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\EntityFramework.SqlServer.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.DAL.pdb
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.DAL.dll.config
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\EntityFramework.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\EntityFramework.SqlServer.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\obj\Debug\Attitude.Business.csproj.CopyComplete
+F:\Sources\AttitudeAdmin\Attitude.Business\obj\Debug\Attitude.Business.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\obj\Debug\Attitude.Business.pdb
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.Shared.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.Mvc.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.Razor.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.WebPages.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.Shared.pdb
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\Attitude.Shared.dll.config
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.Mvc.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.Razor.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.WebPages.xml
+F:\Sources\AttitudeAdmin\Attitude.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Business.dll.config
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Business.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Business.pdb
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.DAL.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Shared.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.SqlServer.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Newtonsoft.Json.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Owin.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Dapper.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\DapperParameters.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Mvc.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Razor.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Razor.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.DAL.pdb
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.DAL.dll.config
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Shared.pdb
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Shared.dll.config
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.SqlServer.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Newtonsoft.Json.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\Dapper.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Mvc.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Razor.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Razor.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.xml
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+F:\Sources\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.csprojAssemblyReference.cache
+F:\Sources\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.csproj.CoreCompileInputs.cache
+F:\Sources\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.csproj.CopyComplete
+F:\Sources\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.dll
+F:\Sources\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.pdb
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\log4net.dll
+F:\Sources\AttitudeClients\Attitude.Business\bin\Debug\log4net.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Business.dll.config
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Business.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Business.pdb
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.DAL.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Shared.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.SqlServer.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Newtonsoft.Json.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Owin.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Dapper.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\DapperParameters.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\log4net.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Mvc.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Razor.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Razor.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.DAL.pdb
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.DAL.dll.config
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Shared.pdb
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Attitude.Shared.dll.config
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\EntityFramework.SqlServer.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Newtonsoft.Json.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\Dapper.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\log4net.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Mvc.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Razor.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.Razor.xml
+E:\Out Source\AttitudeClients\Attitude.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+E:\Out Source\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.csprojAssemblyReference.cache
+E:\Out Source\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.csproj.CoreCompileInputs.cache
+E:\Out Source\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.csproj.CopyComplete
+E:\Out Source\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.dll
+E:\Out Source\AttitudeClients\Attitude.Business\obj\Debug\Attitude.Business.pdb

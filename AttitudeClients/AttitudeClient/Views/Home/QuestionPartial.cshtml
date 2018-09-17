@@ -1,0 +1,109 @@
+﻿@model AttitudeMeasurement.DAL.Entities.Question
+
+@Html.Hidden("QuestionNumber", Model.Number)
+
+<div class="step">
+    <h4 class="main_question"><strong>@Model.Number/@ViewBag.QuestionCount</strong></h4>
+    <h3 class="main_question" style="direction: rtl; font-size: 21px">@Model.Title؟</h3>
+    <div class="row">
+        <div class="col-md-12 " style="direction: rtl; text-align: right; font-size: 15px !important">
+            <div class="form-group radio_input">
+                <label><input type="radio" value="0" name="Number" class="icheck">&nbsp;کاملا مخالفم</label>
+            </div>
+            <div class="form-group radio_input">
+                <label><input type="radio" value="1" name="Number" class="icheck">&nbsp;مخالفم</label>
+            </div>
+            <div class="form-group radio_input">
+                <label><input type="radio" value="2" name="Number" class="icheck">&nbsp;تا حدودی مخالفم</label>
+            </div>
+            <div class="form-group radio_input">
+                <label><input type="radio" value="3" name="Number" class="icheck">&nbsp;تا حدودی موافقم</label>
+            </div>
+            <div class="form-group radio_input">
+                <label><input type="radio" value="4" name="Number" class="icheck">&nbsp;موافقم</label>
+            </div>
+            <div class="form-group radio_input">
+                <label><input type="radio" value="5" name="Number" class="icheck">&nbsp;کاملا موافقم</label>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/content/js/functions.js"></script>
+
+<script>
+    $(function () {
+        $('.iCheck-helper').click(function () {
+
+            var _id = parseInt($('#QuestionNumber').val());
+            if (_id <= 111) {
+                forward(_id);
+            }
+
+            showButton(_id + 1);
+            getpreviousQuestionOption(_id + 1);
+
+        })
+        function forward(qId) {
+            var _val = -1;
+            if ($(".iradio_square-grey").hasClass("checked")) {
+                _val = $(".iradio_square-grey > input:checked").val();
+            }
+
+            $.ajax({
+                type: "GET",
+                url: '../Home/Forward',
+                data: { questionId: qId, answerId: _val },
+                success: function (result) {
+                    if (qId != 112) {
+                        $('#middle-wizard').html(result);
+                    }
+                },
+                error: function () {
+                    console.log('error')
+                }
+
+            })
+        }
+        function showButton(pageNumber) {
+            $('#backward').hide();
+            $('#forward').show();
+            $('#process').hide();
+
+            if (pageNumber > 0 && pageNumber < 113) {
+                $('#backward').show();
+            }
+            if (pageNumber >= 112) {
+                $('#forward').hide();
+                $('#backward').hide();
+                $('#process').show()
+            }
+        }
+        function getpreviousQuestionOption(qid) {
+            $('.iradio_square-grey').removeClass('checked');
+
+            $.ajax({
+                type: "GET",
+                url: '../home/GetSelectedOption',
+                data: { questionNumber: qid },
+                success: function (result) {
+                    if (result != -1) {
+                        $('.radion-continer .radio_input').each(function (item) {
+
+                            if (item == parseInt(result)) {
+                                $.each($(".icheck"), function (ke, value) {
+                                    if (ke == parseInt(result)) {
+                                        $(this).parent().addClass('checked')
+                                    };
+                                });
+                            }
+                        })
+                    }
+                },
+                error: function () {
+                    console.log('error')
+                }
+
+            })
+        }
+    })
+</script>

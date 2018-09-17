@@ -1,0 +1,35 @@
+﻿@model AttitudeAdmin.DBContext.Entities.ApplicationUser
+@{
+    ViewBag.Title = "مدیریت کاربران";
+}
+
+<!-- Main content -->
+<section class="content">
+    <!-- Your Page Content Here -->
+    <!-- general form elements -->
+    <div class="box box-primary">
+        <div class="box-header with-border">
+            <h3 class="box-title">حذف </h3>
+            <div style="float: left;">
+                <a class="btn btn-block btn-warning" href="@Url.Action("Index")">
+                    <i class="fa fa-arrow-left"></i>
+                    بازگشت
+                </a>
+            </div>
+        </div><!-- /.box-header -->
+        <div class="box-body">
+            <h4>آیا نسبت به حذف این مورد اطمینان دارید؟</h4>
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="text-left">
+                    <input type="submit" value="حذف" class="btn btn-sm btn-danger" />
+                </div>
+            }
+        </div><!-- /.box-body -->
+
+    </div><!-- /.box -->
+</section>
+<!-- /.content -->

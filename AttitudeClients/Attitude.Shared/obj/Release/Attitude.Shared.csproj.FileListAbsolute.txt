@@ -1,0 +1,72 @@
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Attitude.Shared.dll.config
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Attitude.Shared.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Attitude.Shared.pdb
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Antlr3.Runtime.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.SqlServer.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\log4net.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.Core.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.Web.Infrastructure.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Newtonsoft.Json.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Helpers.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Mvc.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Razor.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Deployment.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Razor.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\WebGrease.dll
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Antlr3.Runtime.pdb
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.SqlServer.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\log4net.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.Core.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\Newtonsoft.Json.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Helpers.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Mvc.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Razor.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Deployment.xml
+F:\Sources\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Razor.xml
+F:\Sources\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.csprojAssemblyReference.cache
+F:\Sources\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CoreCompileInputs.cache
+F:\Sources\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CopyComplete
+F:\Sources\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.dll
+F:\Sources\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.pdb
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Attitude.Shared.dll.config
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Attitude.Shared.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Attitude.Shared.pdb
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Antlr3.Runtime.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.SqlServer.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\log4net.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.Core.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.Web.Infrastructure.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Newtonsoft.Json.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Helpers.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Mvc.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Razor.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Deployment.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Razor.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\WebGrease.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Antlr3.Runtime.pdb
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\EntityFramework.SqlServer.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\log4net.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.Core.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\Newtonsoft.Json.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Helpers.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Mvc.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.Razor.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Deployment.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\bin\Release\System.Web.WebPages.Razor.xml
+E:\Out Source\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.csprojAssemblyReference.cache
+E:\Out Source\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CoreCompileInputs.cache
+E:\Out Source\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CopyComplete
+E:\Out Source\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.dll
+E:\Out Source\AttitudeClients\Attitude.Shared\obj\Release\Attitude.Shared.pdb

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="MAVIA - Register, Reservation, Questionare, Reviews form wizard">
+    <meta name="author" content="Ansonika">
+    <title>پرسشنامه</title>
+    <!-- Favicons-->
+    <link rel="apple-touch-icon" type="image/x-icon" href="~/content/img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="~/content/img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="~/content/img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="~/content/img/apple-touch-icon-144x144-precomposed.png">
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+    <!-- BASE CSS -->
+    <link href="@Url.Content("~/content/css/animate.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/content/css/bootstrap.min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/content/css/menu.css")" rel="stylesheet">
+    <link href="@Url.Content("~/content/css/style.css")" rel="stylesheet">
+    <link href="@Url.Content("~/content/css/responsive.css")" rel="stylesheet">
+    <link href="@Url.Content("~/content/css/icon_fonts/css/all_icons_min.css")" rel="stylesheet">
+    <link href="@Url.Content("~/content/css/skins/square/grey.css")" rel="stylesheet">
+    <!-- COLOR CSS -->
+    <link href="~/content/css/color_3.css" rel="stylesheet">
+    <!-- BASE CSS -->
+    <link href="@Url.Content("~/content/css/date_time_picker.css")" rel="stylesheet">
+    <!-- YOUR CUSTOM CSS -->
+    <link href="@Url.Content("~/content/css/custom.css")" rel="stylesheet">
+    <script src="@Url.Content("~/content/js/modernizr.js")"></script>
+    <!-- Modernizr -->
+</head>
+<body>
+
+    <div id="preloader">
+        <div data-loader="circle-side"></div>
+    </div><!-- /Preload -->
+
+    <div id="loader_form">
+        <div data-loader="circle-side-2"></div>
+    </div><!-- /loader_form -->
+
+    <main>
+        <div id="form_container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div id="left_form" style="background-color: #2d9150">
+                        <figure><img src="~/content/img/questionare_bg.svg" alt=""></figure>
+                        <h2>پرسشنامه</h2>
+                        <p style="line-height: 1.5; margin-top: 40px">سنجش نگرشهای منابع انسانی بر اساس استاندارد 34000 منابع انسانی</p>
+                        <a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i class="pe-7s-info"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div id="wizard_container">
+                        @RenderBody()
+                    </div>
+                    <!-- /Wizard container -->
+                </div>
+            </div><!-- /Row -->
+        </div><!-- /Form_container -->
+    </main>
+
+    <div class="cd-overlay-nav">
+        <span></span>
+    </div>
+    <!-- cd-overlay-nav -->
+    <div class="cd-overlay-content">
+        <span></span>
+    </div>
+    <!-- cd-overlay-content -->
+    <!-- Modal terms -->
+    <div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn_1" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- Modal info -->
+    <div class="modal fade" id="more-info" tabindex="-1" role="dialog" aria-labelledby="more-infoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="more-infoLabel" style="text-align: right"></h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div style="line-height: 1.5; direction: rtl; text-align: right; font-size: 21px">
+                        همكاران ارجمند؛
+                    </div>
+                    <div style="line-height: 1.5; direction: rtl; text-align: right">
+                        سلام عليكم؛
+                    </div>
+                    <p style="line-height: 1.5; direction: rtl; text-align: right; font-size: 15px">
+                        همانگونه كه مستحضريد رقابت بین سازمان‌ها روز به روز فشرده‌تر می‌شود و هر سال سازمان‌های جدیدی نیز وارد گردونه رقابت می‌شوند. یکی از دغدغه‌های اصلی سازمان‌ها این است که بتوانند در این عرصه رقابت کرده و وضعیت خود را حفظ نموده یا توسعه دهند. تردیدی نیست که یکی از اهرم‌های کلیدی ایجاد مزیت رقابتی در این صحنه، داشتن منابع انسانی راضي و توانمند با نگرشهای مثبت است.
+                        نگرش‌های شغلي كاركنان در استاندارد 34000  از متغيرهای رضایت شغلی(JS)33-1  (رضایت از نفس کار 1-4، رضایت از مافوق 5-11، رضایت از حقوق 12-17، رضایت از همکاران 18- 22،  رضایت از ارتقا 23-28، رضایت از عوامل نگهدارنده 29- 33) ،  تعهد سازمانی(OC) 34 تا 42، ماندگاری - عدم تمایل به ترک خدمت - (TI) 43 تا 46، بهداشت روانشناختی(PW)  47 تا 55، نبود اعتیاد به کار(WH) 56 تا 62،  تعادل کار و زندگی(WLB) 63 تا 69، عجین شدن با شغل/ پيوندكاري(JI) 70  تا 76، اشتیاق و پیوند سازمانی (OE) 77 تا 88، حمایت سازمانی ادراک شده(POS) 89 تا 94، هویت سازمانی(OI)  95 تا 100، نبود رفتارهای ضد شهروندی(ACB)   101 تا 106، رفتارهای شهروندی(OCB)  107 تا 112 تشكيل شده است.
+                        بدیهی است پاسخ‌هاي شما كاملاً محرمانه تلقي مي‌شود. خواهشمند است بدون ذكر نام، پس از تكميل پرسشنامه، آن را به کارشناسان منابع انسانی شرکت که به صورت حضوری مراجعه می‌کنند، عودت فرمایید. لازم به ذكر است كه تكميل اين پرسشنامه به 20 تا 40 دقيقه زمان نياز دارد. پيشاپيش از همكاري شما سپاسگزاريم.
+                    </p>
+                    <p style="line-height: 1.5">
+                        با تشكر مدیریت منابع انسانی
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn_1" data-dismiss="modal" style="background: #EF233C">بستن</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- SCRIPTS -->
+    <!-- Jquery-->
+    <script src="@Url.Content("~/content/js/jquery-3.2.1.min.js")"></script>
+    <!-- Common script -->
+    <script src="@Url.Content("~/content/js/common_scripts.js")"></script>
+    <!-- Menu script -->
+    <script src="@Url.Content("~/content/js/velocity.min.js")"></script>
+    <script src="@Url.Content("~/content/js/main.js")"></script>
+    <!-- Theme script -->
+    <script src="@Url.Content("~/content/js/functions.js")"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

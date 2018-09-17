@@ -1,0 +1,54 @@
+﻿@model List<Attitude.Shared.Entities.VM_AttituteViewReport>
+
+<!-- Main content -->
+<section class="content">
+    <!-- Your Page Content Here -->
+    <!-- general form elements -->
+    <div class="box box-primary">
+        <div class="box-header with-border">
+            <h3 class="box-title"> @ViewBag.ReportTitle </h3>
+
+        </div><!-- /.box-header -->
+        <div class="box-body">
+            <div class="table-responsive">
+                <table class="rtable ">
+                    <thead>
+                        <tr>
+                            <td>شرح</td>
+                            @{
+                                var groupBy = Model.GroupBy(q => q.ColTitle);
+                                var groupBy2 = Model.GroupBy(q => q.RowTitle);
+
+                            }
+                            @foreach (var header in groupBy)
+                            {
+                                <td>
+                                    @header.Key
+                                </td>
+                            }
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in groupBy2)
+                        {
+                            <tr>
+                                <td>@item.Key</td>
+                                @foreach (var vmAttituteViewReport in item)
+                                {
+                                    <td>
+                                        @vmAttituteViewReport.Value
+                                    </td>
+
+                                }
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+                <br />
+            </div>
+
+        </div><!-- /.box-body -->
+    </div><!-- /.box -->
+</section>
+<!-- /.content -->
