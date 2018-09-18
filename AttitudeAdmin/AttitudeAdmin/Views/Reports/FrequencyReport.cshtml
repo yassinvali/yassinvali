@@ -42,6 +42,11 @@
                                 </td>
                             </tr>
                         }
+                    <tr>
+                        <td>جمع</td>
+                        <td>@Model.Sum(q => q.Count)</td>
+                        <td >@Model.Sum(q=>q.FrequencyPercent)</td>
+                    </tr>
                     </tbody>
 
                 </table>
