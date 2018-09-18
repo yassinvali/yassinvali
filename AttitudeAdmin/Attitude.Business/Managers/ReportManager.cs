@@ -82,7 +82,7 @@ namespace Attitude.Business
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Age)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id==(int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
 
                     });
                 }
@@ -185,5 +185,12 @@ namespace Attitude.Business
             var selectListItesm = new List<VM_AttituteViewReportMain>();
             return attitudeViewReports;
         }
+
+        public List<ReportExcel> GetAllSurvay(string userId)
+        {
+            var attitudeViewReports = _reportDal.GetAllSheetDetail(StoreProcedureName.GetAllSheetDetail, userId);
+            return attitudeViewReports;
+        }
     }
+
 }

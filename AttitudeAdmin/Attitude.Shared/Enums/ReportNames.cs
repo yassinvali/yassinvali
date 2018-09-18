@@ -21,6 +21,7 @@ namespace Attitude.Shared.Entities
         Rpt_Table17,
         Rpt_Table18,
         Rpt_Table19,
-        Rpt_Table21
+        Rpt_Table21,
+        GetAllSheetDetail
     }
 }
