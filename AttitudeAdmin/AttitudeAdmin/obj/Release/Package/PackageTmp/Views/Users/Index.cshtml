@@ -1,0 +1,58 @@
+﻿@using PagedList.Mvc
+@model PagedList.IPagedList<AttitudeAdmin.DBContext.Entities.ApplicationUser>
+@{
+    ViewBag.Title = "مدیریت کاربران";
+}
+<!-- Main content -->
+<section class="content">
+    <!-- Your Page Content Here -->
+    <!-- general form elements -->
+    <div class="box box-primary">
+        <div class="box-header with-border">
+            <h3 class="box-title"> کاربران </h3>
+            <div style="float: left;">
+                <a class="btn btn-block btn-success" href="@Url.Action("Create")">
+                    <i class="fa fa-user-plus"></i>
+                    افزودن کاربر
+                </a>
+            </div>
+        </div><!-- /.box-header -->
+        <div class="box-body">
+            <p>
+            </p>
+            <table class="rtable table-responsive ">
+                <thead>
+                    <tr>
+                        <th>
+                            نام کاربری
+                        </th>
+                        <th width="20%" class="text-center">عملیات</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+                            <td class="text-center">
+                                <a href="@Url.Action("Edit", new {id = item.Id})" class="btn btn-sm btn-warning">ویرایش</a>
+                                <a href="@Url.Action("Details", new {id = item.Id})" class="btn btn-sm btn-info">جزییات</a>
+                                <a href="@Url.Action("Delete", new {id = item.Id})" class="btn btn-sm btn-danger">حذف</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+
+            </table>
+            <br />
+            Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { currentFilter = ViewBag.CurrentFilter, page }))
+
+        </div><!-- /.box-body -->
+    </div><!-- /.box -->
+</section>
+<!-- /.content -->

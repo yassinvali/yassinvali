@@ -70,3 +70,39 @@ F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.
 F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CopyComplete
 F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.dll
 F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.pdb
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Attitude.Shared.dll.config
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Attitude.Shared.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Attitude.Shared.pdb
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Antlr3.Runtime.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\EntityFramework.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\EntityFramework.SqlServer.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\log4net.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.Core.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Microsoft.Web.Infrastructure.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Newtonsoft.Json.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.Helpers.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.Mvc.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.Razor.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.WebPages.Deployment.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.WebPages.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.WebPages.Razor.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\WebGrease.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Antlr3.Runtime.pdb
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\EntityFramework.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\EntityFramework.SqlServer.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\log4net.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.Core.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\Newtonsoft.Json.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.Helpers.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.Mvc.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.Razor.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.WebPages.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.WebPages.Deployment.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\bin\Release\System.Web.WebPages.Razor.xml
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.csprojAssemblyReference.cache
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CoreCompileInputs.cache
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.csproj.CopyComplete
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.dll
+E:\Out Source\Survey\Survey34000\AttitudeAdmin\Attitude.Shared\obj\Release\Attitude.Shared.pdb

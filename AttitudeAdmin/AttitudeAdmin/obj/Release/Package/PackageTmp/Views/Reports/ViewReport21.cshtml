@@ -1,0 +1,52 @@
+﻿@model List<Attitude.Shared.Entities.VM_AttituteViewReportMain>
+
+<!-- Main content -->
+<section class="content">
+    <!-- Your Page Content Here -->
+    <!-- general form elements -->
+    <div class="box box-primary">
+        <div class="box-header with-border">
+            <h3 class="box-title"> @ViewBag.ReportTitle </h3>
+
+        </div><!-- /.box-header -->
+        <div class="box-body">
+            <div class="table-responsive">
+                <table class="rtable ">
+                    <thead>
+                        <tr>
+                            <td>ردیف</td>
+                            <td>موج منابع انسانی</td>
+                            <td>شرح</td>
+                            <td>درصد میانگین</td>
+                            <td>درصد قابل قبول</td>
+                            <td>امتیاز 14000</td>
+                            <td>وضعیت</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.RowNum</td>
+                                <td>@item.WaveHr</td>
+                                <td>@item.Title</td>
+                                <td>@item.average</td>
+                                <td>@item.description</td>
+                                <td>@item.TotalPoint</td>
+                                <td style="background-color: @item.Status"></td>
+                            </tr>
+                        }
+                        <tr>
+                            <td colspan="5"><strong> جمع امتیاز ها از 14000  </strong></td>
+                            <td colspan="2">@Model.Sum(q => q.TotalPoint)</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <br />
+            </div>
+
+        </div><!-- /.box-body -->
+    </div><!-- /.box -->
+</section>
+<!-- /.content -->
