@@ -96,6 +96,7 @@
     <Compile Include="Entities\Questionnaire.cs" />
     <Compile Include="Entities\QuestionnaireQuestion.cs" />
     <Compile Include="Entities\QuestionSheet.cs" />
+    <Compile Include="Entities\ReportExcel.cs" />
     <Compile Include="Entities\VM_AttituteViewReportMain.cs" />
     <Compile Include="Entities\VM_AttituteViewReport.cs" />
     <Compile Include="Enums\ReportNames.cs" />
@@ -108,6 +109,7 @@
     <Compile Include="Enums\CurrentWorkExperience.cs" />
     <Compile Include="Enums\RoleEnums.cs" />
     <Compile Include="Enums\WorkExperience.cs" />
+    <Compile Include="Extensions\ExcellMaker.cs" />
     <Compile Include="Extensions\ExtensionMethods.cs" />
     <Compile Include="Extensions\LogHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

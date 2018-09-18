@@ -108,11 +108,11 @@
                 <ul class="sidebar-menu">
                     @if (User.IsInRole("SuperAdmin"))
                     {
-
                         <li id="adminLink"><a href="/Users/Index"><i class="fa fa-fw fa-users"></i> <span>مدیریت کاربران</span></a></li>
-
-
                     }
+                    <li>
+                        <a href="@Url.Action("ExportToExcel","Reports")"><i class="fa fa-fw fa-table"></i> <span>دانلود پرسشنامه ها</span></a>
+                    </li>
                     <li>
                         <a href="@Url.Action("Report21","Reports")"><i class="fa fa-fw fa-table"></i> <span>شاخص نگرش کارکنان</span></a>
                     </li>

@@ -53,5 +53,15 @@ namespace Attitude.DAL.DALRepository
                 return result.ToList();
             }
         }
+
+        public List<ReportExcel> GetAllSheetDetail(StoreProcedureName spName, string userId)
+        {
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                var result = connection.Query<ReportExcel>(spName.ToString(), new { UserId = userId }, commandType: CommandType.StoredProcedure);
+                return result.ToList();
+            }
+        }
     }
 }

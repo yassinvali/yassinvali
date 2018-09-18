@@ -14,5 +14,6 @@ namespace Attitude.DAL.DALRepository
         List<FrequencyBaseViewReport> GetReport(StoreProcedureName spName,string userId);
         List<AttitudeViewReport> GetReportAttitude(StoreProcedureName spName, string userId);
         List<VM_AttituteViewReportMain> GetReport21(StoreProcedureName spName, string userId);
+        List<ReportExcel> GetAllSheetDetail(StoreProcedureName spName, string userId);
     }
 }

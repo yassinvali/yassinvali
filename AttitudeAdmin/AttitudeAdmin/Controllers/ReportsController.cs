@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Globalization;
 using System.Linq;
+using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using Attitude.Business;
 using Attitude.Shared.Extensions;
+using AttitudeAdmin.Extensions;
 
 namespace AttitudeAdmin.Controllers
 {
@@ -211,6 +215,51 @@ namespace AttitudeAdmin.Controllers
             {
                 LogHelper.Error(this, e);
                 return View("Error");
+            }
+        }
+
+        public ActionResult ExportToExcel()
+        {
+            try
+            {
+                var result = new ReportManager().GetAllSurvay(UserId);
+
+                var myExcell = new ExcellMaker();
+                var fileName = $"Surveys-{DateTime.Now.ToPersianDateTime()}.xls";
+                var mytable = new DataTable();
+                mytable.Columns.Add("survayId", typeof(string));
+                mytable.Columns.Add("questionNumner", typeof(string));
+                mytable.Columns.Add("answer", typeof(string));
+
+                mytable.Rows.Add(
+                    "شماره پرسشنامه",
+                    "شماره سوال",
+                    "گزینه انتخاب شده"
+                );
+
+                foreach (var transactionDetail in result)
+                {
+                    mytable.Rows.Add(
+                        transactionDetail.survayId,
+                        transactionDetail.questionNumner,
+                        transactionDetail.answer);
+                }
+
+                var excellText = new StringBuilder(myExcell.Create(mytable, ""));
+                Response.ClearContent();
+                Response.AddHeader("Content-Disposition", "attachment; filename=" + fileName);
+                Response.AddHeader("Content-Type", "application/vnd.ms-excel");
+                Response.Write(excellText.ToString());
+                Response.Flush();
+                Response.End();
+
+                return RedirectToAction("Index");
+
+            }
+            catch (Exception ex)
+            {
+                LogHelper.Error(this, ex);
+                return PartialView("_Error", "در ایجاد فایل اکسل خطایی رخ داده است");
             }
         }
     }
