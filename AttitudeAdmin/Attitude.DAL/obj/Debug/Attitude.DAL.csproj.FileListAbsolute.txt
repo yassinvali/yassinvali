@@ -132,3 +132,5 @@ F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Debug\System.Web.Web
 F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Debug\Attitude.DAL.csproj.CopyComplete
 F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Debug\Attitude.DAL.dll
 F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\obj\Debug\Attitude.DAL.pdb
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Debug\EntityFramework.xml
+F:\Sources\Repos\Survey34000\AttitudeAdmin\Attitude.DAL\bin\Debug\EntityFramework.SqlServer.xml

@@ -186,10 +186,33 @@ namespace Attitude.Business
             return attitudeViewReports;
         }
 
-        public List<ReportExcel> GetAllSurvay(string userId)
+        public List<string[]> GetAllSurvay(string userId)
         {
             var attitudeViewReports = _reportDal.GetAllSheetDetail(StoreProcedureName.GetAllSheetDetail, userId);
-            return attitudeViewReports;
+            var level1 = attitudeViewReports.GroupBy(q => q.masId);
+            var result = new List<string[]>();
+            foreach (var item1 in level1)
+            {
+                var baseInfo = new string[119];
+
+                baseInfo[0] = item1.First().UserId;
+                baseInfo[1] = item1.First().ATitle;
+                baseInfo[2]=item1.First().GTitle;
+                baseInfo[3]=item1.First().xpTitle;
+                baseInfo[4]=item1.First().CxpTitle;
+                baseInfo[5]=item1.First().EduTitle;
+                baseInfo[6]=item1.First().PTitle;
+               
+                var i = 7;
+                foreach (var reportExcel in item1)
+                {
+                    baseInfo[i] = reportExcel.SelectOptionId.ToString();
+                    i++;
+                }
+                result.Add(baseInfo);
+            }
+
+            return result;
         }
     }
 
