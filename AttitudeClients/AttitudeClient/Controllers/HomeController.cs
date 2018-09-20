@@ -104,19 +104,29 @@ namespace AttitudeAdmin.Controllers
             {
                 var allQuestions = GetTotalQuestion();
                 var nextQustion = questionId - 1;
+                var questionSheet = new List<AnswerModel>(); 
                 if (nextQustion != 0)
                 {
                     var question = allQuestions.Single(q => q.Number == nextQustion);
+                     questionSheet = (List<AnswerModel>)TempData.Peek(AnswerKey);
+                    if (questionSheet.Any(q => q.QuestionId == nextQustion))
+                    {
+                        question.SelectedOption = questionSheet.Single(q => q.QuestionId==nextQustion).AnswerId;
+                    }
                     return PartialView("QuestionPartial", question);
                 }
                 if (nextQustion == 0)
                 {
                     GetUserInfoData();
-
                     return PartialView("_UserInformation");
                 }
 
                 var questionFirst = allQuestions.Single(q => q.Number == 1);
+                questionSheet = (List<AnswerModel>)TempData.Peek(AnswerKey);
+                if (questionSheet.Any(q => q.QuestionId == nextQustion))
+                {
+                    questionFirst.SelectedOption = questionSheet.Single(q => q.QuestionId == nextQustion).AnswerId;
+                }
                 return PartialView("QuestionPartial", questionFirst);
             }
             catch (Exception ex)

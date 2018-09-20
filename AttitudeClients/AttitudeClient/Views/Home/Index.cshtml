@@ -4,7 +4,7 @@
     <div id="top-wizard">
         <div id="progressbar"></div>
     </div>
-    <div id="middle-wizard" >
+    <div id="middle-wizard">
         @Html.Partial("_UserInformation")
     </div>
 </div>
@@ -15,5 +15,168 @@
 </div>
 
 @section scripts {
-    <script src="~/Scripts/app/questionApp.js"></script>
+    @*<script src="~/Scripts/app/questionApp.js"></script>*@
+
+    <script>
+        $(function () {
+            showButton(0);
+            $('#forward').click(function () {
+
+                if ($('#QuestionNumber').val() == undefined) {
+                    var _id = parseInt(1);
+                    getpreviousQuestionOption(_id);
+                    var age = parseInt($('#Age').val());
+                    var gendar = parseInt($('#Gendar').val());
+                    var workExperience = parseInt($('#WorkExperience').val());
+                    var currentWorkExperience = parseInt($('#CurrentWorkExperience').val());
+                    var education = parseInt($('#Education').val());
+                    var position = parseInt($('#Position').val());
+
+                    $.ajax({
+                        type: "POST",
+                        url: '@Url.Action("RegisterUserInfo","Home")',
+                        data: {
+                            Gendar: gendar,
+                            Age: age,
+                            WorkExperience: workExperience,
+                            CurrentWorkExperience: currentWorkExperience,
+                            Education: education,
+                            Position: position
+                        },
+                        success: function (result) {
+                            $('#middle-wizard').html(result);
+                            showButton(_id + 1);
+                        },
+                        error: function () {
+                            $('#middle-wizard').html('خطا ، اطلاعات با خطا روبرو شده است');
+                        }
+                    });
+
+                } else {
+                    var _id = parseInt($('#QuestionNumber').val());
+                    forward(_id);
+                    showButton(_id + 1);
+//                    getpreviousQuestionOption(_id + 1);
+                }
+            })
+
+            $('#backward').click(function () {
+                var _id = parseInt($('#QuestionNumber').val());
+                backward(_id);
+                showButton(_id - 1);
+//                getpreviousQuestionOption(_id - 1);
+            })
+
+            $('#process').click(function () {
+                process();
+            })
+
+            function forward(qId) {
+                var _val = -1;
+                if ($(".iradio_square-grey").hasClass("checked")) {
+                    _val = $(".iradio_square-grey > input:checked").val();
+                }
+
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Action("Forward","Home")',
+                    data: { questionId: qId, answerId: _val },
+                    success: function (result) {
+                        $('#middle-wizard').html(result);
+                    },
+                    error: function () {
+                        console.log('error')
+                    }
+
+                })
+            }
+
+            function backward(qId) {
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Action("Backward","Home")',
+                    data: { questionId: qId },
+                    success: function (result) {
+                        $('#middle-wizard').html(result);
+                       var selectItem= $('#selectedItem').val();
+
+                        $('.icheck').each(function (item) {
+                            if (item == selectItem) {
+                                $(this).parent().addClass('checked')
+                            }
+                        })
+                    },
+                    error: function () {
+                        console.log('error')
+                    }
+                })
+            }
+
+            function showButton(pageNumber) {
+                $('#backward').hide();
+                $('#forward').show();
+                $('#process').hide();
+
+                if (pageNumber > 0 && pageNumber < 113) {
+                    $('#backward').show();
+                }
+                if (pageNumber >= 112) {
+                    $('#forward').hide();
+                    $('#backward').hide();
+                    $('#process').show()
+                }
+            }
+
+            function process() {
+                var age = parseInt($('#Age').val());
+                var gendar = parseInt($('#Gendar').val());
+                var workExperience = parseInt($('#WorkExperience').val());
+                var currentWorkExperience = parseInt($('#CurrentWorkExperience').val());
+                var education = parseInt($('#Education').val());
+                var position = parseInt($('#Position').val());
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("Process","Home")',
+                    data: {
+                        Gendar: gendar,
+                        Age: age,
+                        WorkExperience: workExperience,
+                        CurrentWorkExperience: currentWorkExperience,
+                        Education: education,
+                        Position: position
+                    },
+                    success: function (result) {
+                        $('#middle-wizard').html(result);
+                    },
+                    error: function () {
+                        $('#middle-wizard').html('خطا ، اطلاعات با خطا روبرو شده است');
+                    }
+                });
+                $('#backward').hide();
+                $('#forward').hide();
+                $('#process').hide();
+            }
+
+            function getpreviousQuestionOption(qid) {
+                $.ajax({
+                    type: "GET",
+                    url: '@Url.Action("GetSelectedOption","Home")',
+                    data: { questionNumber: qid },
+                    success: function (result) {
+                        if (result != -1) {
+                            $('.icheck').each(function (item) {
+                                if (item == result) {
+                                    $(this).parent().addClass('checked')
+                                }
+                            })
+                        }
+                    },
+                    error: function () {
+                        console.log('error')
+                    }
+                })
+            }
+        })
+    </script>
 }

@@ -1,6 +1,7 @@
 ﻿@model AttitudeMeasurement.DAL.Entities.Question
 
 @Html.Hidden("QuestionNumber", Model.Number)
+@Html.Hidden("selectedItem", Model.SelectedOption)
 
 <div class="step">
     <h4 class="main_question"><strong>@Model.Number/@ViewBag.QuestionCount</strong></h4>
@@ -33,14 +34,12 @@
 <script>
     $(function () {
         $('.iCheck-helper').click(function () {
-
             var _id = parseInt($('#QuestionNumber').val());
             if (_id <= 111) {
                 forward(_id);
             }
-
             showButton(_id + 1);
-            getpreviousQuestionOption(_id + 1);
+//            getpreviousQuestionOption(_id + 1);
 
         })
         function forward(qId) {
@@ -83,12 +82,11 @@
 
             $.ajax({
                 type: "GET",
-                url: '../home/GetSelectedOption',
+                url: '@Url.Action("GetSelectedOption","Home")',
                 data: { questionNumber: qid },
                 success: function (result) {
                     if (result != -1) {
                         $('.radion-continer .radio_input').each(function (item) {
-
                             if (item == parseInt(result)) {
                                 $.each($(".icheck"), function (ke, value) {
                                     if (ke == parseInt(result)) {
