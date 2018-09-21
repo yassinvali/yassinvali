@@ -69,6 +69,7 @@ body {
     transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
     margin-left: 230px;
     z-index: 820;
+
 }
 
 .layout-top-nav .content-wrapper,
@@ -116,6 +117,7 @@ body {
     padding: 15px;
     color: #444;
     border-top: 1px solid #d2d6de;
+    font-size: 10pt;
 }
 /* Fixed layout */
 .fixed .main-header,
