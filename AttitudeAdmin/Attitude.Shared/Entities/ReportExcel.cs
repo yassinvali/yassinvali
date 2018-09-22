@@ -8,8 +8,17 @@ namespace Attitude.Shared.Entities
 {
     public class ReportExcel
     {
-        public int survayId { get; set; }
-        public int questionNumner { get; set; }
-        public int answer { get; set; }
+        public string UserId { get; set; }
+        public int masId { get; set; }
+        public string xpTitle { get; set; }
+        public string EduTitle { get; set; }
+        public string GTitle { get; set; }
+        public string PTitle { get; set; }
+        public string CxpTitle { get; set; }
+        public string ATitle { get; set; }
+        public int QuestionId { get; set; }
+        public int SelectOptionId { get; set; }
+
+
     }
 }
