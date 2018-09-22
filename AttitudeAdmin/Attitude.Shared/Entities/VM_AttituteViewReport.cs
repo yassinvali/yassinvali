@@ -11,5 +11,7 @@ namespace Attitude.Shared.Entities
         public string RowTitle { get; set; }
         public string ColTitle { get; set; }
         public float Value { get; set; }
+        public int SortOrder { get; set; }
+        
     }
 }

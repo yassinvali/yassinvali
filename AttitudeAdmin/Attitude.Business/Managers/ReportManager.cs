@@ -54,19 +54,21 @@ namespace Attitude.Business
             var result = attitudeViewReports.GroupBy(q => q.questionType);
             foreach (var item in Enum.GetValues(typeof(QuestionType)))
             {
+                var order = (int)item;
+                var sortOrder = order > 100 ? order - 100 : order > 1 ? order + 6 : order;
                 foreach (var item2 in Enum.GetValues(typeof(Gender)))
                 {
                     selectListItesm.Add(new VM_AttituteViewReport()
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Gender)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
-
+                        Value = attitudeViewReports.Any(q => q.questionType == order && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == order && q.Id == (int)item2).average : 0,
+                        SortOrder = sortOrder
                     });
                 }
             }
 
-            return selectListItesm;
+            return selectListItesm.OrderBy(q=>q.SortOrder).ToList();
         }
 
         public List<VM_AttituteViewReport> GetReport15(string userId)
@@ -76,19 +78,23 @@ namespace Attitude.Business
             var result = attitudeViewReports.GroupBy(q => q.questionType);
             foreach (var item in Enum.GetValues(typeof(QuestionType)))
             {
+                var order = (int)item;
+                var sortOrder = order > 100 ? order - 100 : order > 1 ? order + 6 : order;
+
                 foreach (var item2 in Enum.GetValues(typeof(Age)))
                 {
                     selectListItesm.Add(new VM_AttituteViewReport()
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Age)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
-
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0,
+                        SortOrder = sortOrder
+                        
                     });
                 }
             }
 
-            return selectListItesm;
+            return selectListItesm.OrderBy(q => q.SortOrder).ToList();
         }
 
         public List<VM_AttituteViewReport> GetReport16(string userId)
@@ -98,19 +104,22 @@ namespace Attitude.Business
             var result = attitudeViewReports.GroupBy(q => q.questionType);
             foreach (var item in Enum.GetValues(typeof(QuestionType)))
             {
-                foreach (var item2 in Enum.GetValues(typeof(WorkExperience)))
+                var order = (int)item;
+                var sortOrder = order > 100 ? order - 100 : order > 1 ? order + 6 : order;
+              foreach (var item2 in Enum.GetValues(typeof(WorkExperience)))
                 {
                     selectListItesm.Add(new VM_AttituteViewReport()
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((WorkExperience)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0,
+                        SortOrder = sortOrder
 
                     });
                 }
             }
 
-            return selectListItesm;
+            return selectListItesm.OrderBy(q=>q.SortOrder).ToList();
         }
 
         public List<VM_AttituteViewReport> GetReport17(string userId)
@@ -120,19 +129,23 @@ namespace Attitude.Business
             var result = attitudeViewReports.GroupBy(q => q.questionType);
             foreach (var item in Enum.GetValues(typeof(QuestionType)))
             {
+                var order = (int)item;
+                var sortOrder = order > 100 ? order - 100 : order > 1 ? order + 6 : order;
+
                 foreach (var item2 in Enum.GetValues(typeof(CurrentWorkExperience)))
                 {
                     selectListItesm.Add(new VM_AttituteViewReport()
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((CurrentWorkExperience)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0,
+                        SortOrder = sortOrder
 
                     });
                 }
             }
 
-            return selectListItesm;
+            return selectListItesm.OrderBy(q=>q.SortOrder).ToList();
         }
 
         public List<VM_AttituteViewReport> GetReport18(string userId)
@@ -142,19 +155,23 @@ namespace Attitude.Business
             var result = attitudeViewReports.GroupBy(q => q.questionType);
             foreach (var item in Enum.GetValues(typeof(QuestionType)))
             {
+                var order = (int)item;
+                var sortOrder = order > 100 ? order - 100 : order > 1 ? order + 6 : order;
+
                 foreach (var item2 in Enum.GetValues(typeof(Education)))
                 {
                     selectListItesm.Add(new VM_AttituteViewReport()
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Education)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0,
+                        SortOrder = sortOrder
 
                     });
                 }
             }
 
-            return selectListItesm;
+            return selectListItesm.OrderBy(q=>q.SortOrder).ToList();
         }
 
         public List<VM_AttituteViewReport> GetReport19(string userId)
@@ -164,19 +181,23 @@ namespace Attitude.Business
             var result = attitudeViewReports.GroupBy(q => q.questionType);
             foreach (var item in Enum.GetValues(typeof(QuestionType)))
             {
+                var order = (int)item;
+                var sortOrder = order > 100 ? order - 100 : order > 1 ? order + 6 : order;
+
                 foreach (var item2 in Enum.GetValues(typeof(Position)))
                 {
                     selectListItesm.Add(new VM_AttituteViewReport()
                     {
                         RowTitle = ((QuestionType)item).ToDescriptionEnum(),
                         ColTitle = ((Position)item2).ToDescriptionEnum(),
-                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0
+                        Value = attitudeViewReports.Any(q => q.questionType == (int)item && q.Id == (int)item2) ? attitudeViewReports.Single(q => q.questionType == (int)item && q.Id == (int)item2).average : 0,
+                        SortOrder = sortOrder
 
                     });
                 }
             }
 
-            return selectListItesm;
+            return selectListItesm.OrderBy(q=>q.SortOrder).ToList();
         }
 
         public List<VM_AttituteViewReportMain> GetReport21(string userId)
