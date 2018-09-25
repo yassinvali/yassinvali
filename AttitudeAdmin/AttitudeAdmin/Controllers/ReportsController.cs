@@ -7,6 +7,7 @@ using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using Attitude.Business;
+using Attitude.Shared.Entities;
 using Attitude.Shared.Extensions;
 using AttitudeAdmin.Extensions;
 
@@ -26,6 +27,7 @@ namespace AttitudeAdmin.Controllers
         {
             try
             {
+                ViewBag.ReportId = 6;
                 ViewBag.ReportTitle = "فراوانی پاسخگویان به تفکیک جنسیت";
                 var model = reportManager.GetReport6(UserId);
                 return View("FrequencyReport", model);
@@ -40,6 +42,7 @@ namespace AttitudeAdmin.Controllers
         {
             try
             {
+                ViewBag.ReportId = 7;
                 ViewBag.ReportTitle = "فراوانی پاسخگویان به تفکیک سن";
                 var model = reportManager.GetReport7(UserId);
                 return View("FrequencyReport", model);
@@ -55,6 +58,7 @@ namespace AttitudeAdmin.Controllers
 
             try
             {
+                ViewBag.ReportId = 8;
                 ViewBag.ReportTitle = "فراوانی پاسخگویان به تفکیک سنوات خدمت";
                 var model = reportManager.GetReport8(UserId);
                 return View("FrequencyReport", model);
@@ -67,9 +71,9 @@ namespace AttitudeAdmin.Controllers
         }
         public ActionResult Report9()
         {
-
             try
             {
+                ViewBag.ReportId = 9;
                 ViewBag.ReportTitle = "فراوانی پاسخگویان به تفکیک سنوات خدمت فعلی";
                 var model = reportManager.GetReport9(UserId);
                 return View("FrequencyReport", model);
@@ -82,9 +86,9 @@ namespace AttitudeAdmin.Controllers
         }
         public ActionResult Report10()
         {
-
             try
             {
+                ViewBag.ReportId = 10;
                 ViewBag.ReportTitle = "فراوانی پاسخگویان به تفکیک تحصیلات";
                 var model = reportManager.GetReport10(UserId);
                 return View("FrequencyReport", model);
@@ -97,9 +101,9 @@ namespace AttitudeAdmin.Controllers
         }
         public ActionResult Report11()
         {
-
             try
             {
+                ViewBag.ReportId = 11;
                 ViewBag.ReportTitle = "فراوانی پاسخگویان به تفکیک پست سازمانی";
                 var model = reportManager.GetReport11(UserId);
                 return View("FrequencyReport", model);
@@ -116,6 +120,7 @@ namespace AttitudeAdmin.Controllers
 
             try
             {
+                ViewBag.ReportId = 14;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان به تفکیک جنسیت";
 
                 var model = reportManager.GetReport14(UserId);
@@ -133,6 +138,7 @@ namespace AttitudeAdmin.Controllers
 
             try
             {
+                ViewBag.ReportId = 15;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان به تفکیک سن";
                 var model = reportManager.GetReport15(UserId);
                 return View("AttitudeReport", model);
@@ -148,6 +154,7 @@ namespace AttitudeAdmin.Controllers
 
             try
             {
+                ViewBag.ReportId = 16;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان  به تفکیک سنوات خدمت";
                 var model = reportManager.GetReport16(UserId);
                 return View("AttitudeReport", model);
@@ -163,6 +170,7 @@ namespace AttitudeAdmin.Controllers
 
             try
             {
+                ViewBag.ReportId = 17;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان  به تفکیک سنوات خدمت فعلی";
                 var model = reportManager.GetReport17(UserId);
                 return View("AttitudeReport", model);
@@ -178,6 +186,7 @@ namespace AttitudeAdmin.Controllers
 
             try
             {
+                ViewBag.ReportId = 18;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان  به تفکیک تحصیلات";
                 var model = reportManager.GetReport18(UserId);
                 return View("AttitudeReport", model);
@@ -192,6 +201,7 @@ namespace AttitudeAdmin.Controllers
         {
             try
             {
+                ViewBag.ReportId = 19;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان به تفکیک پست سازمانی";
                 var model = reportManager.GetReport19(UserId);
                 return View("AttitudeReport", model);
@@ -207,6 +217,7 @@ namespace AttitudeAdmin.Controllers
         {
             try
             {
+                ViewBag.ReportId = 21;
                 ViewBag.ReportTitle = "شاخص نگرش کارکنان ";
                 var model = reportManager.GetReport21(UserId);
                 return View("ViewReport21", model);
@@ -611,6 +622,87 @@ namespace AttitudeAdmin.Controllers
                 LogHelper.Error(this, ex);
                 return PartialView("_Error", "در ایجاد فایل اکسل خطایی رخ داده است");
             }
+        }
+
+        public ActionResult ReportToExcel(int id)
+        {
+            try
+            {
+                var result =new List<FrequencyBaseViewReport>();
+                var reportName = string.Empty;
+                switch (id)
+                {
+                    case 6:
+                        result = reportManager.GetReport6(UserId);
+                        reportName = "جنسیت";
+                        return CreateFrequencyReport(reportName, result);
+                    case 7:
+                        result = reportManager.GetReport7(UserId);
+                        reportName = "سن"; 
+                        return CreateFrequencyReport(reportName, result);
+                    case 8:
+                        result = reportManager.GetReport8(UserId);
+                        reportName = "سنوات خدمت"; 
+                        return CreateFrequencyReport(reportName, result);
+                    case 9:
+                        result = reportManager.GetReport9(UserId);
+                        reportName = " سنوات خدمت فعلی"; 
+                        return CreateFrequencyReport(reportName, result);
+                    case 10:
+                        result = reportManager.GetReport10(UserId);
+                        reportName = "تحصیلات"; 
+                        return CreateFrequencyReport(reportName, result);
+                    case 11:
+                        result = reportManager.GetReport11(UserId);
+                        reportName = "پست سازمانی";
+                        return CreateFrequencyReport(reportName, result);
+                }
+
+                return View("Index");
+
+            }
+            catch (Exception ex)
+            {
+                LogHelper.Error(this, ex);
+                return PartialView("_Error", "در ایجاد فایل اکسل خطایی رخ داده است");
+            }
+        }
+
+        private ActionResult CreateFrequencyReport(string reportName, List<FrequencyBaseViewReport> result)
+        {
+            var title = $"گزارش فراوانی به تفکیک {reportName}-{User.Identity.Name}-{DateTime.Now}.xls";
+
+            var myExcell = new ExcellMaker();
+            var fileName = title;
+            var mytable = new DataTable();
+            mytable.Columns.Add("title", typeof(string));
+            mytable.Columns.Add("Count", typeof(string));
+            mytable.Columns.Add("FrequencyPercent", typeof(string));
+            mytable.Rows.Add(
+                "شرح",
+                "فراوانی",
+                " درصد فراوانی"
+            );
+
+            DataRow dr = mytable.NewRow();
+
+            foreach (var frequencyBaseViewReport in result)
+            {
+                mytable.Rows.Add(
+                    frequencyBaseViewReport.Title,
+                    frequencyBaseViewReport.Count,
+                    frequencyBaseViewReport.FrequencyPercent);
+            }
+
+            var excellText = new StringBuilder(myExcell.Create(mytable, ""));
+            Response.ClearContent();
+            Response.AddHeader("Content-Disposition", "attachment; filename=" + fileName);
+            Response.AddHeader("Content-Type", "application/vnd.ms-excel");
+            Response.Write(excellText.ToString());
+            Response.Flush();
+            Response.End();
+
+            return RedirectToAction("Index");
         }
     }
 }

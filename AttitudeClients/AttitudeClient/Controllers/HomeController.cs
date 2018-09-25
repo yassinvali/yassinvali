@@ -191,6 +191,11 @@ namespace AttitudeAdmin.Controllers
             try
             {
                 var questionSheet = (List<AnswerModel>)TempData.Peek(AnswerKey);
+                questionSheet.Add(new AnswerModel()
+                {
+                    QuestionId = question.LastQuestionId,
+                    AnswerId = question.LastQuestionAnswerId
+                });
                 var userInfo = (QuestionSheet)TempData.Peek(userInfoKey);
                 manager.Insert(new QuestionSheet()
                 {

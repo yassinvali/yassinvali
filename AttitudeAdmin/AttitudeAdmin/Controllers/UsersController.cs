@@ -167,12 +167,12 @@ namespace AttitudeAdmin.Controllers
 
                 if (ModelState.IsValid)
                 {
-                    var user = UserManager.FindByIdAsync(applicationUser.Id);
-                    if (user.GetAwaiter().IsCompleted)
+                    var user = UserManager.FindById(applicationUser.Id);
+                    if (user!=null)
                     {
-                        user.Result.UserName = applicationUser.UserName;
-                        user.Result.Roles.Clear();
-                        UserManager.Update(user.Result);
+                        user.UserName = applicationUser.UserName;
+                        user.Roles.Clear();
+                        UserManager.Update(user);
 
                         ApplicationUserRoleManager.Create(applicationUser.Id, roleId: (applicationUser.RoleId == (int)RoleEnums.SuperAdmin ? "1" : "2"));
 

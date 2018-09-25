@@ -56,7 +56,6 @@
                     var _id = parseInt($('#QuestionNumber').val());
                     forward(_id);
                     showButton(_id + 1);
-//                    getpreviousQuestionOption(_id + 1);
                 }
             })
 
@@ -64,7 +63,6 @@
                 var _id = parseInt($('#QuestionNumber').val());
                 backward(_id);
                 showButton(_id - 1);
-//                getpreviousQuestionOption(_id - 1);
             })
 
             $('#process').click(function () {
@@ -134,6 +132,11 @@
                 var currentWorkExperience = parseInt($('#CurrentWorkExperience').val());
                 var education = parseInt($('#Education').val());
                 var position = parseInt($('#Position').val());
+                var _id = parseInt($('#QuestionNumber').val());
+                var _val = -1;
+                if ($(".iradio_square-grey").hasClass("checked")) {
+                    _val = $(".iradio_square-grey > input:checked").val();
+                }
 
                 $.ajax({
                     type: "POST",
@@ -144,7 +147,9 @@
                         WorkExperience: workExperience,
                         CurrentWorkExperience: currentWorkExperience,
                         Education: education,
-                        Position: position
+                        Position: position,
+                        LastQuestionId: _id,
+                        LastQuestionAnswerId: _val
                     },
                     success: function (result) {
                         $('#middle-wizard').html(result);

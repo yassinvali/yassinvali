@@ -18,6 +18,8 @@ namespace Attitude.Shared.Entities
         public int CurrentWorkExperience { get; set; }
         public int Education { get; set; }
         public int Position { get; set; }
+        public int LastQuestionId { get; set; }
+        public int LastQuestionAnswerId { get; set; }
 
         public List<AnswerModel> AnswerList { get; set; }
     }
