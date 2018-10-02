@@ -7,7 +7,7 @@
     <div class="box box-primary">
         <div class="box-header with-border">
             <h3 class="box-title"> @ViewBag.ReportTitle </h3>
-
+            <a href="@Url.Action("ReportToExcel","Reports",new {id=ViewBag.ReportId})" class="btn btn-file btn-success" style="float: left;"><i class="fa fa-file-excel"></i>خروجی به اکسل</a>
         </div><!-- /.box-header -->
         <div class="box-body">
             <div class="table-responsive">
