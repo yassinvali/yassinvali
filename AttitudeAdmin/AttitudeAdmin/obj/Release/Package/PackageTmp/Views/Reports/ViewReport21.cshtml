@@ -11,7 +11,7 @@
         </div><!-- /.box-header -->
         <div class="box-body">
             <div class="table-responsive">
-                <table class="rtable " style="text-align: center;">
+                <table class="rtable ">
                     <thead>
                         <tr>
                             <td>ردیف</td>
@@ -24,28 +24,22 @@
                         </tr>
                     </thead>
                     <tbody>
-                    
-                    @foreach (var item in Model)
-                    {
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.RowNum</td>
+                                <td>@item.WaveHr</td>
+                                <td>@item.Title</td>
+                                <td>@item.average</td>
+                                <td>@item.description</td>
+                                <td>@item.TotalPoint</td>
+                                <td style="background-color: @item.Status"></td>
+                            </tr>
+                        }
                         <tr>
-                            <td>@item.RowNum</td>
-                            <td>@item.WaveHr</td>
-                            <td>@item.Title</td>
-                            <td>@item.average</td>
-                            <td>@item.description</td>
-                            <td>@item.TotalPoint</td>
-                            <td style="background-color: @item.Status"></td>
+                            <td colspan="5"><strong> جمع امتیاز ها از 14000  </strong></td>
+                            <td colspan="2">@Model.Sum(q => q.TotalPoint)</td>
                         </tr>
-                    }
-                    <tr>
-                        <td colspan="5"><strong> جمع امتیاز ها از 14000 </strong></td>
-                        <td colspan="2">@Model.Where(q=>!(q.RowNum.Trim().Equals("1-1") ||
-                                                        q.RowNum.Trim().Equals("1-2") ||
-                                                        q.RowNum.Trim().Equals("1-3") ||
-                                                        q.RowNum.Trim().Equals("1-4") ||
-                                                        q.RowNum.Trim().Equals("1-5") ||
-                                                        q.RowNum.Trim().Equals("1-6"))).Sum(q => q.TotalPoint)</td>
-                    </tr>
                     </tbody>
 
                 </table>
