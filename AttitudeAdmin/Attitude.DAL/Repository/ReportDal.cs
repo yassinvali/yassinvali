@@ -60,7 +60,28 @@ namespace Attitude.DAL.DALRepository
             {
                 connection.Open();
                 var result = connection.Query<ReportExcel>(spName.ToString(), new { UserId = userId }, commandType: CommandType.StoredProcedure);
-                return result.ToList();
+                var allSheetDetail = result.ToList();
+
+
+
+                var aa = allSheetDetail.GroupBy(q => q.masId).Where(p=>p.Count()<112);
+                foreach (var a in aa)
+                {
+                    {
+                        
+                            for (int i = 1; i < 113; i++)
+                            {
+                                if (!a.Any(q => q.QuestionId == i))
+                                {
+                                    connection.Execute(
+                                        "insert into dbo.QuestionSheetDetail(masterId,questionId,SelectOptionId)values(@masterId,@questionId,@selectOption)",
+                                        new { masterId = a.Key, questionId = i, selectOption = -1});
+                                }
+                            }
+                        
+                    }
+                }
+                return allSheetDetail;
             }
         }
     }

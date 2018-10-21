@@ -84,17 +84,20 @@ namespace AttitudeAdmin.Controllers
         private void QuestionListManage(int questionId, int answerId)
         {
             var answerModels = (List<AnswerModel>)TempData.Peek(AnswerKey);
-            var oldAnswer = answerModels.Find(q => q.QuestionId == questionId);
-            if (oldAnswer != null)
+            if (answerModels != null && answerModels.Any())
             {
-                answerModels.Remove(oldAnswer);
-            }
+                var oldAnswer = answerModels.Find(q => q.QuestionId == questionId);
+                if (oldAnswer != null)
+                {
+                    answerModels.Remove(oldAnswer);
+                }
 
-            answerModels.Add(new AnswerModel()
-            {
-                QuestionId = questionId,
-                AnswerId = answerId
-            });
+                answerModels.Add(new AnswerModel()
+                {
+                    QuestionId = questionId,
+                    AnswerId = answerId
+                });
+            }
         }
 
         [HttpGet]
@@ -104,14 +107,14 @@ namespace AttitudeAdmin.Controllers
             {
                 var allQuestions = GetTotalQuestion();
                 var nextQustion = questionId - 1;
-                var questionSheet = new List<AnswerModel>(); 
+                var questionSheet = new List<AnswerModel>();
                 if (nextQustion != 0)
                 {
                     var question = allQuestions.Single(q => q.Number == nextQustion);
-                     questionSheet = (List<AnswerModel>)TempData.Peek(AnswerKey);
+                    questionSheet = (List<AnswerModel>)TempData.Peek(AnswerKey);
                     if (questionSheet.Any(q => q.QuestionId == nextQustion))
                     {
-                        question.SelectedOption = questionSheet.Single(q => q.QuestionId==nextQustion).AnswerId;
+                        question.SelectedOption = questionSheet.Single(q => q.QuestionId == nextQustion).AnswerId;
                     }
                     return PartialView("QuestionPartial", question);
                 }
@@ -166,7 +169,7 @@ namespace AttitudeAdmin.Controllers
                 var questionSheet = new QuestionSheet()
                 {
                     Position = question.Position,
-                    UserId =applicationUser.Id,
+                    UserId = applicationUser.Id,
                     Education = question.Education,
                     Age = question.Age,
                     CurrentWorkExperience = question.CurrentWorkExperience,
@@ -337,7 +340,7 @@ namespace AttitudeAdmin.Controllers
             selectListItesm.Add(new SelectListItem()
             {
                 Value = "-1",
-                Text = "سنوات خدمت فعلی را انتخاب نمایید"
+                Text = "سنوات خدمت در سازمان فعلی را انتخاب نمایید"
             });
             foreach (var education in Enum.GetValues(typeof(CurrentWorkExperience)))
             {

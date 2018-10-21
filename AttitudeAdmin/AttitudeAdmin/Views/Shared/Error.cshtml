@@ -1,9 +1,8 @@
-﻿@model System.Web.Mvc.HandleErrorInfo
-
+﻿@model string
 @{
     ViewBag.Title = "Error";
 }
 
 <h1 class="text-danger">خطا.</h1>
-<h2 class="text-danger">سیستم با خطا مواجه شده است ، لطفا مجددا تلاش نمایید</h2>
+<h2 class="text-danger">@Model</h2>
 

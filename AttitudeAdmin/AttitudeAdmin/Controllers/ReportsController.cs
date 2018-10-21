@@ -620,7 +620,7 @@ namespace AttitudeAdmin.Controllers
             catch (Exception ex)
             {
                 LogHelper.Error(this, ex);
-                return PartialView("_Error", "در ایجاد فایل اکسل خطایی رخ داده است");
+                return PartialView("Error", "در ایجاد فایل اکسل خطایی رخ داده است");
             }
         }
 
@@ -664,7 +664,7 @@ namespace AttitudeAdmin.Controllers
             catch (Exception ex)
             {
                 LogHelper.Error(this, ex);
-                return PartialView("_Error", "در ایجاد فایل اکسل خطایی رخ داده است");
+                return PartialView("Error", "در ایجاد فایل اکسل خطایی رخ داده است");
             }
         }
 

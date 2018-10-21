@@ -393,7 +393,7 @@ footer ul li a{
 }
 
 a#more_info {
-	width: 26px;
+	width: 90px;
 	height: 26px;
 	color: #fff;
 	position: absolute;
@@ -402,6 +402,14 @@ a#more_info {
 	bottom: 15px;
 	z-index: 2;
 	font-size: 26px;
+}
+
+a#more_info span {
+    color: #fff;
+    position: relative;
+    float: right;
+    font-size: 12px;
+    margin: 9px 6px 0;
 }
 
 /*-------- 2.3 Wizard quote--------*/

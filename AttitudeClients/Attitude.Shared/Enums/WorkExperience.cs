@@ -16,7 +16,7 @@ namespace AttitudeMeasurement.DAL.Enums
         [Description("بین 11 تا 15 سال")]
         Between11To15 = 3,
         [Description("بین 16 تا 20 سال")]
-        Between16To20 = 5,
+        Between16To20 = 4,
         [Description("بالاتر از 21 سال")]
         Greatethan21 = 5,
     }

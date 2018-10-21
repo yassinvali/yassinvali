@@ -9,15 +9,15 @@ namespace AttitudeMeasurement.DAL.Enums
 {
     public enum CurrentWorkExperience
     {
-        [Description("كمتر از 5سال")]
+        [Description("کمتر از 5 سال")]
         FiveYear = 1,
-        [Description("5-10 سال")]
+        [Description("بین 5 تا 10 سال")]
         Between5To10 = 2,
-        [Description("11-15 سال")]
+        [Description("بین 11 تا 15 سال")]
         Between11To15 = 3,
-        [Description("16-20 سال")]
+        [Description("بین 16 تا 20 سال")]
         Between16To20 = 4,
-        [Description("21 سال به بالا")]
+        [Description("بالاتر از 21 سال")]
         Greatethan21 = 5,
     }
 

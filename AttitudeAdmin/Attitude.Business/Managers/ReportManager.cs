@@ -211,6 +211,8 @@ namespace Attitude.Business
         {
             var attitudeViewReports = _reportDal.GetAllSheetDetail(StoreProcedureName.GetAllSheetDetail, userId);
             var level1 = attitudeViewReports.GroupBy(q => q.masId);
+
+
             var result = new List<string[]>();
             foreach (var item1 in level1)
             {
@@ -235,6 +237,7 @@ namespace Attitude.Business
 
             return result;
         }
+       
     }
 
 }
