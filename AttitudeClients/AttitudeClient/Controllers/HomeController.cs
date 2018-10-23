@@ -91,13 +91,13 @@ namespace AttitudeAdmin.Controllers
                 {
                     answerModels.Remove(oldAnswer);
                 }
-
-                answerModels.Add(new AnswerModel()
-                {
-                    QuestionId = questionId,
-                    AnswerId = answerId
-                });
             }
+
+            answerModels.Add(new AnswerModel()
+            {
+                QuestionId = questionId,
+                AnswerId = answerId
+            });
         }
 
         [HttpGet]
